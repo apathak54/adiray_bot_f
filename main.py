@@ -44,7 +44,7 @@ class QueryRequest(BaseModel):
 # whisper_model = whisper.load_model("base.en")
 command = ['ffmpeg', '-i', '-', '-f', 'wav', '-']
 
-index = faiss.read_index("D:\Downloads\adiray_bot_f\faiss\index.fais")
+# index = faiss.read_index("D:\Downloads\adiray_bot_f\faiss\index.fais")
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
